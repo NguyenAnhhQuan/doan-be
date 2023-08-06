@@ -8,11 +8,11 @@ const cors = require("cors");
 app.use(cors());
 // connect mysql
 const con = mysql.createConnection({
-  host: "127.0.0.1",
+  host: "db4free.net",
   port: 3306,
-  user: "root",
-  password: "",
-  database: "nhietdodoam",
+  user: "dauvietduc",
+  password: "vietduc2001",
+  database: "dauvietduc",
 });
 
 con.connect(function (err) {
